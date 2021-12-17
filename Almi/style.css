@@ -1,0 +1,243 @@
+body{
+    font-family: sofia-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-family: sofia-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2{
+    font-family: sofia-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card-title{
+    font-family: sofia-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+.hero .btn {
+    background-color: #870AA0;
+    color: white ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero {
+    background: linear-gradient(
+90deg, #ffffff44 0%, #ffffff44 100%), url(bilder/pexels-pixabay-207896.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    color: #fff;
+}
+
+.img-fluid-girl{
+    width: 100%;
+    
+}
+
+.Uppstartslån{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lån-info{
+    margin-top: 10px;
+}
+
+.lån-info .heading{
+    margin-top: 20px;
+}
+
+/*.card{
+    display: flex;
+    align-items: center;
+    
+}*/
+
+.card-body{
+    background-color: #00F0AF;
+    
+}
+
+.card-body .btn{
+    background-color:#870AA0 ;
+    color: white;
+}
+
+.carousel-caption{
+   background-color: black; 
+   background: linear-gradient(0deg,
+     black 0%, #ffffff44 100%);
+     
+}
+
+.testimonials{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.testimonials .img-fluid{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.testimonials img{
+    border-radius: 40%;
+    width: 50%; height: auto;
+
+}
+
+.testimonials h2{
+    color:#870AA0;
+    font-family: sofia-pro,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+
+.footer{
+    background-color: #2819FF;
+    color: white;
+    padding-top: 10px;
+}
+
+.footer h2{
+    font-size: 2rem;
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+.footer a{
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.ikon-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+@media only screen and (min-width: 768px){
+    p{
+        font-size: 1.7rem;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    .img-fluid-girl{
+        width: 50%; height: 60%;
+        float: left;
+    }
+
+    .card-title{
+        font-size: 2.5rem;
+    }
+
+
+    .footer h2{
+        font-size: 3rem;
+    }
+
+    .footer a{
+        font-size: 2.3rem;
+        margin-top: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 993px){
+
+    .nav-item{
+        margin-left: 50px;
+    }
+
+    .img-fluid-girl{
+        width: 50%; height: 60%;
+        float: left;
+    }
+
+    .container-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+
+     .testimonials img{
+        
+        width: 30%; height: 20%;
+        
+        
+    }
+
+    
+    .footer-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+        
+    }
+
+    .footer h2{
+        font-size: 2rem;
+    }
+
+    .footer a{
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+
+}
+
+@media only screen and (min-width:1203px){
+    .container-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 400px;
+        
+        
+    }
+
+}
+
+
+
